@@ -15,8 +15,6 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-
-# 对于显示静态文件非常重要
 from django.conf import settings
 from django.conf.urls.static import static
 

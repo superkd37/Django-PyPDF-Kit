@@ -9,4 +9,5 @@ urlpatterns = [
     path('extract/range/', views.pdf_range_extract, name='pdf_range_extract'),
     path('merge/', views.pdf_merge, name='pdf_merge'),
     path('replace/', views.pdf_replace, name='pdf_replace'),
+    path('extract/data/', views.pdf_data_extract, name='pdf_data_extract'),
 ]

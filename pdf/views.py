@@ -1,3 +1,4 @@
+from PyPDF2.pdf import PageObject
 from django.shortcuts import render
 from django.http import FileResponse
 from .forms import PdfExtractForm, PdfMergeForm, PdfReplaceForm
@@ -181,3 +182,6 @@ def pdf_replace(request):
         form = PdfReplaceForm()
 
     return render(request, 'pdf/pdf_replace.html', {'form': form})
+
+
+
