@@ -1,4 +1,3 @@
-# pdf/models.py
 from django import forms
 
 

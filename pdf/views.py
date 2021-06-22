@@ -1,4 +1,3 @@
-from PyPDF2.pdf import PageObject
 from django.shortcuts import render
 from django.http import FileResponse
 from .forms import PdfExtractForm, PdfMergeForm, PdfReplaceForm
